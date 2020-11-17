@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="700" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5c405817-2bdc-4167-bac8-e6a6957d9011">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="211"/>
+	<queryString language="SQL">
+		<![CDATA[select * from tb_wp]]>
+	</queryString>
+	<field name="no_formulir" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="alamat_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="notelp_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kodpos_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="surat_ijin_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nomor_surat" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="tgl_badan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="bidang_usaha" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_pemilik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="jabatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="alamat_pemilik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="notelp_pemilik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kod_pemilik" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="kwpjk" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Npwpd" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Npwprd" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="Npwpd">
+		<groupExpression><![CDATA[$F{Npwpd}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="536" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="133" uuid="4fbca846-79c0-45a1-a307-3293a0274a45"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="133" y="100" width="271" height="20" uuid="43f690df-9f16-4e75-a63e-659fe34cf404"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Website http: //www.madiunkota.go.id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="60" width="271" height="20" uuid="32d9ed34-4ac4-4352-9117-6e8e69051556"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Jalan Soekarno Hatta no. 17 Madiun 63136 Jatim]]></text>
+			</staticText>
+			<image>
+				<reportElement mode="Opaque" x="10" y="30" width="96" height="80" forecolor="#FFFFFF" uuid="0bdcdaff-a30d-4322-8d45-5f7a172ebdf0"/>
+				<imageExpression><![CDATA["E:\\Logo Kota Madiun EDIT.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="133" y="80" width="271" height="20" uuid="40073338-b2a5-45f2-b54b-b494218932d2"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[Telp. (0351) 464085 Faks. (0351) 464253]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="30" width="271" height="30" uuid="b6d564cf-25d9-4daa-ae24-c3d51966570a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DINAS PENDAPATAN DAERAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="133" y="10" width="271" height="20" uuid="ad295857-4bdf-4ec9-a82a-507f346b30b6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[PEMERINTAH KOTA MADIUN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="-309" y="-649" width="555" height="106" uuid="6014de29-c30f-40e1-941c-ad8e1161d994"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="229" width="555" height="307" uuid="70fbe797-88c8-4114-8c53-8c6a3c0b51a2"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="19" y="252" width="110" height="20" uuid="f26aeb73-2d20-4024-800d-12f167f68460"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[1. Nama Badan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="283" width="110" height="20" uuid="769d9155-f22b-4e59-8d08-e005d0a73bef"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[2. Alamat Badan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="348" width="110" height="20" uuid="6dc17388-f1a2-473e-a1cc-114ecf486519"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[4. Alamat Pemilik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="417" width="110" height="20" uuid="c4b76a54-5c9c-4efe-824d-88080656a0b5"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[6. No. Telp]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="383" width="110" height="20" uuid="fd439b51-3896-41b9-895c-b5aec53a82df"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[5. Jabatan]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="316" width="110" height="20" uuid="beb23e6c-e3e3-4262-b454-8c8554c21eda"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[3. Nama Pemilik]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="451" width="110" height="20" uuid="5b1ffa87-fe15-4263-a2e4-e509bb972b45"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[7. Kewajiban Pajak]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="252" width="11" height="20" uuid="64b2841e-74c8-44ee-a659-d0ce607261dd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="283" width="11" height="20" uuid="50417e43-da96-4874-aab2-4842cb52ec51"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="316" width="11" height="20" uuid="eccb2314-a670-4c7c-9205-ee4c9d75aeee"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="348" width="11" height="20" uuid="4059c418-218c-475e-ae64-a1368ba82445"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="383" width="11" height="20" uuid="4898a783-16d5-4cc0-97d9-468b4a0758be"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="417" width="11" height="20" uuid="1f3f1cea-7a30-4548-a4d3-3c41069fabcd"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="451" width="11" height="20" uuid="5aec4abb-2c6e-4109-9dc7-d6d4f098ced3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="140" y="316" width="100" height="20" uuid="9b90e6be-41df-4278-b3f7-b0c5eb0e7dab"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_pemilik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="383" width="100" height="20" uuid="b308ec91-4283-4fe5-8d39-877bac1941e2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{jabatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="252" width="100" height="20" uuid="36305704-d5d1-4885-8c0d-064e55fd4f17"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_badan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="283" width="100" height="20" uuid="eea592b4-ca9a-4bf4-a79a-b100a30f8580"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{alamat_badan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="451" width="100" height="20" uuid="c333377a-8df7-48ab-81cd-9cbeea9476aa"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{kwpjk}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="417" width="100" height="20" uuid="8b64ad5d-f539-4471-a392-139a07b5b7dd"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{notelp_pemilik}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="348" width="100" height="20" uuid="ddfe60f0-5b60-4b3b-a319-06cc32ed7093"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{alamat_pemilik}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="0" y="133" width="555" height="96" uuid="01a95397-9ca1-405d-b148-95a21f3277d5"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="132" y="144" width="272" height="30" uuid="91eb7b67-d9b3-4c99-ab9b-802ad35351e6"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="18" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA WAJIB PAJAK]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="19" y="186" width="75" height="20" uuid="be913862-432e-4902-aa68-6b80f3a622c0"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[N P W P D]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="18" y="206" width="122" height="20" uuid="d171dc43-8f81-47fd-90dc-de8fe6a189b6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="15" isBold="true" isUnderline="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Npwpd}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch">
+			<staticText>
+				<reportElement x="22" y="766" width="110" height="20" uuid="52190555-093b-4023-9725-9c5f71bfff89"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<text><![CDATA[12. Kewajiban Pajak]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>
